@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import { Download, Clock, Star, Package, Settings, BarChart, Search, Filter, FileText, Database } from 'lucide-react';
+import { Download, Clock, Star, Package, Settings, BarChart, Search, Filter, FileText} from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const SubscriberDashboard = () => {
@@ -229,7 +229,7 @@ const SubscriberDashboard = () => {
             </CardContent>
           </Card>
 
-          <Card>
+          {/* <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
               <CardTitle className="text-sm font-medium">Commercial Licenses</CardTitle>
               <Package className="h-4 w-4 text-muted-foreground" />
@@ -240,9 +240,9 @@ const SubscriberDashboard = () => {
               </div>
               <p className="text-xs text-muted-foreground">Active licenses</p>
             </CardContent>
-          </Card>
+          </Card> */}
 
-          <Card>
+          {/* <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
               <CardTitle className="text-sm font-medium">Storage Used</CardTitle>
               <Database className="h-4 w-4 text-muted-foreground" />
@@ -251,7 +251,7 @@ const SubscriberDashboard = () => {
               <div className="text-2xl font-bold">756 KB</div>
               <p className="text-xs text-muted-foreground">Across all downloads</p>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     );
