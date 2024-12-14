@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -7,7 +8,16 @@ const Footer = () => {
           <div className="container mx-auto px-4 py-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
-                <h3 className="text-xl font-bold mb-4 text-red-500">জিফন্ট ফন্টস</h3>
+              <Link href="/" className="flex items-center">
+                <Image
+                  src="/logo.png"
+                  alt="JiFont Fonts Logo"
+                  width={150}
+                  height={50}
+                  className="w-[100px] md:w-[150px] h-auto"  // 100px on mobile, 150px on desktop
+                  priority
+                />
+              </Link>
                 <p className="text-gray-400">Browse through our collection of custom fonts and designs.</p>
               </div>
               

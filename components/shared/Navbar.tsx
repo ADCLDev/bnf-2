@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { User, ChevronDown, Menu, X } from "lucide-react";
 import CartPopup from "../reuseable/CartPopUp";
+import Image from "next/image";
 
 interface NavbarProps {
   isLoggedIn?: boolean;
@@ -55,8 +56,15 @@ const Navbar: React.FC<NavbarProps> = ({ isLoggedIn = false }) => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="text-xl md:text-2xl font-bold text-red-500">
-            জিফন্ট ফন্টস
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="JiFont Fonts Logo"
+              width={150}
+              height={50}
+              className="w-[100px] md:w-[150px] h-auto"  // 100px on mobile, 150px on desktop
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
