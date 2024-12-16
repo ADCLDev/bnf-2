@@ -1,3 +1,4 @@
+// components/pages/Home/TypeToolPopUp
 "use client"
 import React, { useState } from 'react';
 import { Plus, Check, Type } from 'lucide-react';

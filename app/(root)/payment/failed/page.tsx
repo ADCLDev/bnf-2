@@ -1,3 +1,4 @@
+// app/(root)/payment/failed/page.tsx
 import PaymentFailed from '@/components/reuseable/PaymentFailed'
 import React from 'react'
 

@@ -1,3 +1,4 @@
+// app/(root)/legal/payment-policy/page.tsx
 import PolicyHeader from "@/components/legal/PolicyHeader";
 import PolicySection from "@/components/legal/PolicySection";
 import { CreditCard } from "lucide-react";

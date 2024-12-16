@@ -1,3 +1,4 @@
+// app/(root)/legal/terms-of-service/contributors/page.tsx
 import { ScrollText } from "lucide-react";
 import PolicySection from "@/components/legal/PolicySection";
 import PolicyHeader from "@/components/legal/PolicyHeader";

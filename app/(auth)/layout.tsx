@@ -1,4 +1,4 @@
-// src/app/layout.tsx
+// app/(auth)/layout.tsx
 import { FC, ReactNode } from 'react';
 import '../globals.css'
 import Navbar from '@/components/shared/Navbar';

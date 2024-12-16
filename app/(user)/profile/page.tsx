@@ -1,3 +1,4 @@
+// app/(user)/profile/page.tsx
 'use client'
 import React, { useState, ChangeEvent } from 'react';
 import { Camera } from 'lucide-react';

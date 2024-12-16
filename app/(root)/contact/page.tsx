@@ -1,3 +1,4 @@
+// src/app/(root)/contact/page.tsx
 import React from 'react';
 import { 
   Mail, 

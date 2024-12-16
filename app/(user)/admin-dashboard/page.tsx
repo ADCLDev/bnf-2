@@ -1,3 +1,4 @@
+// app/(user)/admin-dashboard/page.tsx
 'use client'
 import React, { useState } from 'react';
 import { BarChart, AlertCircle, Package, Type, Book, Shield, Settings, Users, DollarSign, FileText, Upload, Check, X } from 'lucide-react';

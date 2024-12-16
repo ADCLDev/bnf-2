@@ -1,3 +1,4 @@
+// components/reuseable/FAQBanner
 import React from 'react'
 import Link from 'next/link'
 import { MessageCircle } from 'lucide-react'

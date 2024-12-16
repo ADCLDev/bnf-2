@@ -1,3 +1,4 @@
+// components/pages/Home/Hero
 'use client'
 import { FC } from 'react';
 import { Card } from '@/components/ui/card';

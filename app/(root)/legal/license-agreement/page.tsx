@@ -1,3 +1,4 @@
+// app/(root)/legal/license-agreement/page.tsx
 import PolicySection from "@/components/legal/PolicySection";
 import PolicyHeader from "@/components/legal/PolicyHeader";
 import { FileCheck } from "lucide-react";

@@ -1,3 +1,4 @@
+// components/reuseable/PaymentFailed
 'use client'
 import React from 'react';
 import { XCircle, ArrowLeft, RefreshCw, ShoppingCart } from 'lucide-react';

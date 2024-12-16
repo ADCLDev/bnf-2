@@ -1,3 +1,4 @@
+// app/(root)/legal/privacy-policy/page.tsx
 import PolicySection from "@/components/legal/PolicySection";
 import PolicyHeader from "@/components/legal/PolicyHeader";
 import { Shield } from "lucide-react";

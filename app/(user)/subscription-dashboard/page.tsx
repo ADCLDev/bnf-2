@@ -1,3 +1,4 @@
+// app/(user)/subscription-dashboard/page.tsx
 'use client'
 import React, { useState } from 'react';
 import { Download, Clock, Star, Package, Settings, BarChart, Search, Filter, FileText} from 'lucide-react';
@@ -228,30 +229,6 @@ const SubscriberDashboard = () => {
               <p className="text-xs text-muted-foreground">All time</p>
             </CardContent>
           </Card>
-
-          {/* <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Commercial Licenses</CardTitle>
-              <Package className="h-4 w-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">
-                {downloadHistory.filter(d => d.license === 'Commercial').length}
-              </div>
-              <p className="text-xs text-muted-foreground">Active licenses</p>
-            </CardContent>
-          </Card> */}
-
-          {/* <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Storage Used</CardTitle>
-              <Database className="h-4 w-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">756 KB</div>
-              <p className="text-xs text-muted-foreground">Across all downloads</p>
-            </CardContent>
-          </Card> */}
         </div>
       </div>
     );

@@ -1,3 +1,4 @@
+// app/(root)/legal/refund-policy/page.tsx
 import PolicySection from "@/components/legal/PolicySection";
 import PolicyHeader from "@/components/legal/PolicyHeader";
 import { RefreshCcw } from "lucide-react";

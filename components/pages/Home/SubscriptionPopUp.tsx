@@ -1,3 +1,4 @@
+// components/pages/Home/SubscriptionPopUp
 "use client"
 import React, { useState } from 'react';
 import { Plus, Check } from 'lucide-react';

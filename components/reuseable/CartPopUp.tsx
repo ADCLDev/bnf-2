@@ -1,3 +1,4 @@
+// components/reuseable/CartPopUp
 'use client'
 import React, { useState } from 'react';
 import { ShoppingCart, Minus, Plus, Trash2 } from 'lucide-react';

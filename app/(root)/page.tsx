@@ -1,4 +1,4 @@
-// src/app/page.tsx
+// app/(root)/page.tsx
 import { FC } from 'react';
 import { Search } from 'lucide-react';
 import FontCard from '@/components/fonts/FontCard'

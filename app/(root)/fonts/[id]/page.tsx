@@ -1,5 +1,5 @@
+// app/(root)/fonts/[id]/page.tsx
 'use client'
-
 import React, { useState, useEffect, useRef } from 'react';
 import { ChevronDown, Minus, Plus } from 'lucide-react';
 

@@ -1,3 +1,4 @@
+// src/app/(root)/contributors-panel/[id]/page.tsx
 import React from 'react';
 import { Building2, MapPin, Download, Users, Star, BarChart3, Calendar, Gift } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

@@ -1,5 +1,5 @@
+// components/fonts/FontCard
 'use client'
-
 import { FC, useState } from 'react';
 import { Heart, ShoppingCart, Download, Check } from 'lucide-react';
 import { cn } from '@/lib/utils';

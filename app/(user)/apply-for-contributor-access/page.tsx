@@ -1,3 +1,4 @@
+// app/(user)/apply-for-contributor-access/page.tsx
 'use client'
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

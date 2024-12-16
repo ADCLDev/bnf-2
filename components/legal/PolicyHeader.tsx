@@ -1,4 +1,4 @@
-import React from 'react';
+// components/legal/PolicyHeader
 
 const PolicyHeader = ({ 
   title, 

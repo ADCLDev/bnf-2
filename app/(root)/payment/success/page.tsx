@@ -1,3 +1,4 @@
+// app/(root)/payment/success/page.tsx
 import PaymentSuccess from '@/components/reuseable/PaymentSuccess'
 import React from 'react'
 

@@ -1,3 +1,5 @@
+// components/legal/PolicySection
+
 const PolicySection = ({
   title,
   children

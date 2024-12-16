@@ -1,3 +1,4 @@
+// app/(root)/faqs/page.tsx
 import React from 'react';
 import Link from 'next/link';
 import { ChevronRight, MessageCircle, Phone, Mail, Facebook } from 'lucide-react';
@@ -49,7 +50,7 @@ const FAQCard = ({ title, description, youtubeEmbedId, background, icon, softwar
 // Floating WhatsApp Button Component
 const WhatsAppButton = () => (
   <Link
-    href="https://wa.me/+1234567890"
+    href="https://wa.me/+8801763419261"
     target="_blank"
     className="fixed bottom-8 right-8 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50 group"
   >
@@ -138,21 +139,6 @@ const FAQPage = () => {
               description="Connect with us on Facebook for quick responses and community help."
             />
           </div>
-        </div>
-
-        {/* Common Issues Alert */}
-        <div className="max-w-3xl mx-auto mt-16 bg-purple-50 p-6 rounded-xl">
-          {/* <div className="flex items-start gap-4">
-            <AlertCircle className="w-6 h-6 text-purple-700 flex-shrink-0 mt-1" />
-            <div>
-              <h3 className="font-bold text-lg mb-2">Common Issues</h3>
-              <p className="text-gray-700">
-                Most Bangla typing issues can be resolved by checking your font compatibility, 
-                system language settings, and software preferences. If you&apos;re still experiencing issues, 
-                don&apos;t hesitate to reach out to our support team.
-              </p>
-            </div>
-          </div> */}
         </div>
       </div>
 
